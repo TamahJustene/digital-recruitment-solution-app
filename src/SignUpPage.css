@@ -1,0 +1,88 @@
+/* SignUpPage.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #384D9D;
+  color: #FFFFFF;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* SignUp Form */
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #F7F7F7;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 4px;
+}
+
+.signup-form h2 {
+  font-size: 24px;
+  color: #384D9D;
+  margin-bottom: 20px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.signup-form button.signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #384D9D;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-form p.login-link {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.signup-form p.login-link a {
+  color: #384D9D;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  padding: 20px 0;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-text {
+  font-size: 14px;
+}
